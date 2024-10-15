@@ -1,0 +1,134 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="{% static 'icons/black-logo.png' %}" type="image/x-icon">
+
+    <title>Contact Us</title>
+
+    <!-- Link CSS Files -->
+    <link rel="stylesheet" href="{% static 'css/contact_us.css' %}">
+    <link rel="stylesheet" href="{% static 'css/con_us_section_2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main_footer.css' %}">
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Architects+Daughter&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- SECTION 1 -->
+    <section>
+        <div class="main_contant_1">
+            <div class="mc1u">
+                <div class="mc1u1">
+                    <img src="{% static 'images/icons/logo.jpg' %}" alt="">
+                </div>
+                <div class="mc1u2">
+                    <img src="{% static 'images/icons/Twitter.png' %}" alt="">
+                    <img src="{% static 'images/icons/Facebook F.png' %}" alt="">
+                    <img src="{% static 'images/icons/Instagram Circle.png' %}" alt="">
+                    <img src="{% static 'images/icons/YouTube.png' %}" alt="">
+                    <img src="{% static 'images/icons/LinkedIn.png' %}" alt="">
+                </div>
+                <div class="mc1u3" id="mc1u3">
+                    <img src="{% static 'images/icons/Menu_Rounded.png' %}" onclick="home_to_manu()">
+                    <img src="{% static 'images/icons/Search.png' %}" alt="">
+                </div>
+                <div class="mc1u3_click" id="mc1u3_click">
+                    <img onclick="manu_to_home()" src="{% static 'images/icons/Back Arrow.png' %}" alt="">
+                </div>
+            </div>
+            <div class="mc1m">
+                <div class="slider_round_1"></div>
+                <div class="mc1m1"></div>
+                <div class="mc1m2">
+                    <h2>CONTACT US</h2>
+                </div>
+                <div class="mc1m3" id="mc1m3"></div>
+                <div class="mc1m3_click" id="mc1m3_click" style="width: 38.7vw;">
+                    <ul>
+                        <li>HOME PAGE</li>
+                        <li>ABOUT US</li>
+                        <li>SERVICES</li>
+                        <li>PROJECT</li>
+                        <li>CONTACT US</li>
+                        <li>BLOGS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mc1d">
+                <div class="mc1d1"></div>
+                <div class="mc1d2"></div>
+                <div class="mc1d3"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION 2 -->
+    <section>
+        <div class="contact_contant_2">
+            <div class="cc2l">
+                <div class="cc2l_1">GET IN TOUCH</div>
+                <div class="cc2l_2">Your email address will not be published. Required fields are marked.</div>
+                <div class="cc2l_form">
+                    <input placeholder="Your Name :" type="text" name="name" id="">
+                    <input placeholder="Your Email :" type="email" name="email" id="">
+                    <input placeholder="Message :" type="text" name="message" id="">
+                    <input type="submit" value="SEND">
+                </div>
+            </div>
+            <div class="cc2r">
+                <div class="cc2r_black">
+                    <div class="cc2r_b_1">[ Our contact Details ] <br><br> Let's Start a Project</div>
+                    <div class="cc2r_b_2">
+                        Give us a call or drop by anytime, we endeavor to answer all enquiries within
+                        24 hours on business days. We will be happy to answer your questions.
+                    </div>
+                    <div class="cc2r_add">
+                        <div class="cc2r_add_1">
+                            <div><img src="{% static 'icons/Address.png' %}" alt="Address"></div>
+                            <div>
+                                space odyssey 13th floor,<br> “OM iNTERIOR”<br>
+                                Kalavad Road, 150 ft. Ring Road,<br>
+                                Nr. KKV Hall, Opp. Chitralekha Apt.,<br>
+                                Rajkot - 360005, Gujarat, INDIA
+                            </div>
+                        </div>
+                        <div class="cc2r_add_2">
+                            <div><img src="{% static 'icons/Mail.png' %}" alt="Email"></div>
+                            <div>ominterior@gmail.com</div>
+                        </div>
+                        <div class="cc2r_add_3">
+                            <div><img src="{% static 'icons/Phone.png' %}" alt="Phone"></div>
+                            <div>+91 123 456 7890</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Embedded Google Map -->
+        <div class="co_us_map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.73822482816814!2d70.77312255859817!3d22.28512553261487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cbd96c78e379%3A0x859bf7642525c0a7!2sSPACE%20ODYSSEY!5e0!3m2!1sen!2sin!4v1693921721086!5m2!1sen!2sin"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Link JS File -->
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>

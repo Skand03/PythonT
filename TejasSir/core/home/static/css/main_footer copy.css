@@ -1,0 +1,150 @@
+.m_f_u,.m_f_m,.m_f_d{
+    display: flex;
+    height: fit-content;
+    border-bottom: 1px solid rgb(255, 255, 255, .3);
+}
+.m_f_u_1,.m_f_m_1,.m_f_d_1,.m_f_u_4,.m_f_m_4,.m_f_d_4{
+    width: 17vw;
+    
+    border-right: 1px solid rgb(255, 255, 255, .3);
+}
+.m_f_u_2,.m_f_m_2,.m_f_d_2,.m_f_u_3,.m_f_m_3,.m_f_d_3{
+    width: 33vw;
+    border-right: 1px solid rgb(255, 255, 255, .3);
+}
+
+.m_f_u_1,.m_f_u_2,.m_f_u_3,.m_f_u_4{
+    height: 8vw;
+}
+
+.m_f_m_1,.m_f_m_2,.m_f_m_3,.m_f_m_4{
+    height: 32vw;
+}
+
+.m_f_d_1,.m_f_d_2,.m_f_d_3,.m_f_d_4{
+    height: 6.5vw;
+}
+
+
+
+
+.m_f_u_1 img{
+    position: relative;
+    width: 4.5vw;
+    top: 2vw;
+    margin-left: 7vw;
+}
+
+.m_f_u_4 img {
+    position: relative;
+    width: 15%;
+    left: 48%;
+    top: 35%;
+    cursor: pointer;
+}
+
+.m_f_m_2 h2 {
+    color: white;
+    font-size: 1vw;
+    line-height: 3vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+
+.m_f_m_2 h2 ul{
+    list-style: none;
+    font-size: .8vw;
+    
+}
+
+.m_f_m_3 h2{
+    color: white;
+    font-size: 1vw;
+    letter-spacing: .08vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+
+.m_f_m_4 h2{
+    position: relative;
+    font-size: 1.5vw;
+    rotate: 90deg;
+    top: 13vw;
+    color: #8b8b8b;
+}
+
+.m_f_m_4 h3{
+    color: white;
+    position: relative;
+    top: 27.5vw;
+    left: 6vw;
+    font-size: 1vw;
+}
+
+.m_f_d_2 h2{
+    position: relative;
+    text-align: center;
+    top: 3vw;
+    color: #8b8b8b;
+    font-size: 1vw;
+}
+
+.f_icons{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f_icons img{
+    position: relative;
+    width: 10%;
+    height: 2vw;
+    display: flex;
+    top: 2.5vw;   
+}
+
+.spu a{
+    text-decoration: none;
+}
+
+.spu h2{
+    position: relative;
+    background: #00000050;
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    color: #8b8b8b;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.spu_c input{ 
+    position: relative;
+    background: #00000050;
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    color: #8b8b8b;
+    font-size: 1vw;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.spu_c h2{ 
+    position: relative;
+    background: #00000050;
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    color: #8b8b8b;
+    font-size: 1vw;
+}
+
+
+.footer_round{
+    position: relative;
+    border: 1px solid #8b8b8b;
+    background: rgba(255, 255, 255, 0);
+    width: 190%;
+    height: 100%;
+    border-radius: 50%;
+}
+

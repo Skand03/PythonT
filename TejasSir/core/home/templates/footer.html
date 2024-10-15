@@ -1,0 +1,154 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main_footer.css' %}">
+</head>
+
+<body>
+
+    <!-- FOOTER SECTION -->
+    <section>
+        <div class="main_footer" id="main_footer">
+
+            <div class="m_f_u">
+                <div class="m_f_u_1">
+                    <img src="{% static 'images/icons/logo.jpg' %}"
+                        srcset="{% static 'images/icons/logo.jpg' %} 2w, {% static 'images/icons/logo.jpg' %} 2w">
+                </div>
+                <div class="m_f_u_2"></div>
+                <div class="m_f_u_3"></div>
+                <div class="m_f_u_4">
+                    <img onclick="home_to_footer()"
+                        srcset="{% static 'images/icons/Menu_Rounded.png' %} 120w, {% static 'images/icons/Menu_Rounded.png' %} 120w">
+                </div>
+            </div>
+
+            <div class="m_f_m">
+                <div class="m_f_m_1">
+                    <div class="footer_round"></div>
+                </div>
+                <div class="m_f_m_2">
+                    <h2 style="position:absolute;">
+                        <ul>
+                            <li><a href="link1.html" style="color:white; text-decoration:none;">Menu Option 1</a></li>
+                            <li><a href="link2.html" style="color:white; text-decoration:none;">Menu Option 2</a></li>
+                            <li><a href="link3.html" style="color:white; text-decoration:none;">Menu Option 3</a></li>
+                            <!-- Add more menu options as needed -->
+                        </ul>
+                    </h2>
+                </div>
+                <div class="m_f_m_3">
+                    <h2>To Meet Our OM INTERIOR <br> Team, <br><br>
+                        Space Odyssey 13th Floor,<br> "OM INTERIOR" <br>
+                        Kalavad Road, 150 Ft. Ring Road,<br> Nr. KKV Hall, Opp. Chitralekha <br> Apt., Rajkot - 360005,
+                        Gujarat, <br> INDIA
+                        <br><br><br> Create The Perfect Space With Your <br> Interior Designer In 5 Easy Steps
+                    </h2>
+                    <div class="spu">
+                        <a href="contact us.html">
+                            <h2>Start Your Project With Us</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="m_f_m_4">
+                    <h2>FIND YOUR STYLE</h2>
+                    <h3>Follow Us</h3>
+                </div>
+            </div>
+
+            <div class="m_f_d">
+                <div class="m_f_d_1"></div>
+                <div class="m_f_d_2">
+                    <h2>Copyright @ 2023 OM INTERIOR By WebIT. All Rights Reserved.</h2>
+                </div>
+                <div class="m_f_d_3"></div>
+                <div class="m_f_d_4">
+                    <div class="f_icons">
+                        <img src="{% static 'images/icons/twitter.png' %}" alt="">
+                        <img src="{% static 'images/icons/Facebook F.png' %}" alt="">
+                        <img src="{% static 'images/icons/Instagram Circle.png' %}" alt="">
+                        <img src="{% static 'images/icons/YouTube.png' %}" alt="">
+                        <img src="{% static 'images/icons/LinkedIn.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main_footer_click" id="main_footer_click">
+
+            <div class="m_f_u">
+                <div class="m_f_u_1">
+                    <img src="{% static 'images/icons/logo.jpg' %}" alt="">
+                </div>
+                <div class="m_f_u_2"></div>
+                <div class="m_f_u_3"></div>
+                <div class="m_f_u_4">
+                    <img src="{% static 'images/icons/Back Arrow.png' %}" onclick="footer_to_home()" alt="">
+                </div>
+            </div>
+
+            <div class="m_f_m">
+                <div class="m_f_m_1">
+                    <div class="footer_round"></div>
+                </div>
+                <div class="m_f_m_2" style="z-index: 1;">
+                    <h2>
+                        <ul>
+                            <li><a href="link1.html" style="color:white; text-decoration:none;">Menu Option 1</a></li>
+                            <li><a href="link2.html" style="color:white; text-decoration:none;">Menu Option 2</a></li>
+                            <li><a href="link3.html" style="color:white; text-decoration:none;">Menu Option 3</a></li>
+                            <!-- Add more menu options as needed -->
+                        </ul>
+                    </h2>
+                </div>
+                <div class="m_f_m_3">
+                    <h2>Receive Tips And Ideas From <br> The OM INTERIOR Team</h2>
+                    <div class="spu_c">
+                        <input type="email" placeholder="hello@email.com">
+                        <input type="submit" value=">" style="margin-left: 0px; cursor:pointer;">
+                    </div>
+                    <h2>Create the perfect space with your <br> interior designer in 5 easy steps</h2>
+                    <div class="spu_c" style="margin-top: 0vh;">
+                        <a href="contact us.html" style="text-decoration:none;">
+                            <h2>Start Your Project With Us</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="m_f_m_4">
+                    <h2>FIND YOUR STYLE</h2>
+                    <h3>Follow Us</h3>
+                </div>
+            </div>
+
+            <div class="m_f_d">
+                <div class="m_f_d_1"></div>
+                <div class="m_f_d_2">
+                    <h2>Copyright @ 2023 OM INTERIOR By WebIT. All Rights Reserved.</h2>
+                </div>
+                <div class="m_f_d_3"></div>
+                <div class="m_f_d_4">
+                    <div class="f_icons">
+                        <img src="{% static 'images/icons/twitter.png' %}" alt="">
+                        <img src="{% static 'images/icons/Facebook F.png' %}" alt="">
+                        <img src="{% static 'images/icons/Instagram Circle.png' %}" alt="">
+                        <img src="{% static 'images/icons/YouTube.png' %}" alt="">
+                        <img src="{% static 'images/icons/LinkedIn.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>

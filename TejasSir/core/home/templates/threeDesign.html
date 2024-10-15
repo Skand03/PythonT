@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load static files -->
+
+    <link rel="shortcut icon" href="{% static 'images/icons/black-logo.png' %}" type="image/x-icon">
+    <title>3D DESIGNS</title>
+
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="{% static 'css/pro.css' %}">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Architects+Daughter&family=Chakra+Petch:wght@300;400&family=Edu+NSW+ACT+Foundation:wght@500&family=Exo+2:wght@300&family=Inconsolata:wght@300&family=Marck+Script&family=Montserrat+Alternates:wght@300&family=Noto+Sans&family=Patrick+Hand&family=Prompt:wght@300&family=Rajdhani:wght@500&family=Raleway:ital@1&family=Shantell+Sans:ital,wght@1,300&family=Signika+Negative:wght@300&family=Sono&family=Titillium+Web&family=Ubuntu:wght@300&family=Work+Sans:wght@200&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- SECTION 1 -->
+    <section>
+        <div class="main_contant_1">
+            <div class="mc1u">
+                <div class="mc1u1">
+                    <img src="{% static 'images/icons/logo.jpg' %}" alt="Logo">
+                </div>
+                <div class="mc1u2">
+                    <img src="{% static 'images/icons/Twitter.png' %}" alt="Twitter">
+                    <img src="{% static 'images/icons/Facebook F.png' %}" alt="Facebook">
+                    <img src="{% static 'images/icons/Instagram Circle.png' %}" alt="Instagram">
+                    <img src="{% static 'images/icons/YouTube.png' %}" alt="YouTube">
+                    <img src="{% static 'images/icons/LinkedIn.png' %}" alt="LinkedIn">
+                </div>
+                <div class="mc1u3" id="mc1u3">
+                    <img src="{% static 'images/icons/Menu_Rounded.png' %}" onclick="home_to_manu()" alt="Menu">
+                    <img src="{% static 'images/icons/Search.png' %}" alt="Search">
+                </div>
+                <div class="mc1u3_click" id="mc1u3_click">
+                    <img onclick="manu_to_home()" src="{% static 'images/icons/Back Arrow.png' %}" alt="Back">
+                </div>
+            </div>
+            <div class="mc1m">
+                <div class="slider_round_1" style="width: 80%;"></div>
+                <div class="mc1m1"></div>
+                <div class="mc1m2">
+                    <h2 style="left: -38vw; top: -5vw; font-size: 5vw; width: 200%;">3D DESIGNS</h2>
+                </div>
+                <div class="mc1m3" id="mc1m3"></div>
+                <div class="mc1m3_click" id="mc1m3_click" style="width: 40vw;">
+                    <ul>
+                        <li>HOME PAGE</li>
+                        <li>ABOUT US</li>
+                        <li>SERVICES</li>
+                        <li>PROJECT</li>
+                        <li>CONTACT US</li>
+                        <li>BLOGS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mc1d">
+                <div class="mc1d1"></div>
+                <div class="mc1d2"></div>
+                <div class="mc1d3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <h2 class="details">
+        With the key focus of "Providing Final Result exactly same as that planned in Initial Stages", the firm Prashant
+        Parmar Architect
+        has been extensively involved in Designing the Private Bungalows. The firm has contributed in designing more
+        than 900 projects
+        scaling up to 30,000 Sq. Ft. Construction Area for an individual house.
+    </h2>
+
+    <div class="pro3">
+        <div class="pro3_1"></div>
+        <div class="pro3_2">
+            <div class="pro_2_1">
+                <div class="pro_2_1_1"></div>
+                <div class="pro_2_1_2"></div>
+            </div>
+            <div class="pro_2_2"></div>
+        </div>
+    </div>
+
+    <div class="pro3">
+        <div class="pro3_2">
+            <div class="pro_2_1">
+                <div class="pro_2_1_1"></div>
+                <div class="pro_2_1_2"></div>
+            </div>
+            <div class="pro_2_2"></div>
+        </div>
+        <div class="pro3_1"></div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'images/icons/black-logo.png' %}" type="image/x-icon">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'css/aboutus.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about_section_2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main_footer.css' %}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Architects+Daughter&family=Chakra+Petch:wght@300;400&family=Edu+NSW+ACT+Foundation:wght@500&family=Exo+2:wght@300&family=Inconsolata:wght@300&family=Marck+Script&family=Montserrat+Alternates:wght@300&family=Noto+Sans&family=Patrick+Hand&family=Prompt:wght@300&family=Rajdhani:wght@500&family=Raleway:ital@1&family=Shantell+Sans:ital,wght@1,300&family=Signika+Negative:wght@300&family=Sintony&family=Sono&family=Titillium+Web&family=Ubuntu:wght@300&family=Work+Sans:wght@200&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- SECTION == 1 -->
+    <section>
+        <img class="slider" src="{% static 'images/about_us_bg.png' %}">
+        <div class="main_contant_1">
+            <div class="mc1u">
+                <div class="mc1u1">
+                    <img src="{% static 'images/icons/logo.jpg' %}" alt="">
+                </div>
+                <div class="mc1u2">
+                    <img src="{% static 'images/icons/Twitter.png' %}" alt="">
+                    <img src="{% static 'images/icons/Facebook F.png' %}" alt="">
+                    <img src="{% static 'images/icons/Instagram Circle.png' %}" alt="">
+                    <img src="{% static 'images/icons/YouTube.png' %}" alt="">
+                    <img src="{% static 'images/icons/LinkedIn.png' %}" alt="">
+                </div>
+                <div class="mc1u3" id="mc1u3">
+                    <img src="{% static 'images/icons/Menu_Rounded.png' %}" onclick="home_to_manu()">
+                    <img src="{% static 'images/icons/Search.png' %}" alt="">
+                </div>
+                <div class="mc1u3_click" id="mc1u3_click">
+                    <img onclick="manu_to_home()" src="{% static 'images/icons/Back Arrow.png' %}" alt="">
+                </div>
+            </div>
+            <div class="mc1m">
+                <div class="slider_round_1"></div>
+                <div class="mc1m1">
+                    <h3> &#8592; </h3>
+                </div>
+                <div class="mc1m2">
+                    <h3> &#8594; </h3>
+                    <h2>ABOUT US</h2>
+                </div>
+                <div class="mc1m3" id="mc1m3"></div>
+                <div class="mc1m3_click" id="mc1m3_click" style="height:42.5vw;width: 38.7vw;">
+                    <ul>
+                        <li><a href="#" style="color:white; text-decoration:none;">Home Page</a></li>
+                        <li><a href="#" style="color:white; text-decoration:none;">About Us</a></li>
+                        <li><a href="#" style="color:white; text-decoration:none;">Services</a></li>
+                        <li><a href="#" style="color:white; text-decoration:none;">Project</a></li>
+                        <li><a href="#" style="color:white; text-decoration:none;">Contact Us</a></li>
+                        <li><a href="#" style="color:white; text-decoration:none;">Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mc1d">
+                <div class="mc1d1"></div>
+                <div class="mc1d2"></div>
+                <div class="mc1d3">
+                    <h2>START PROJECT</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION == 2 -->
+    <section>
+        <div class="mc2">
+            <div class="mc2l">
+                <div>
+                    <h2>Our <br> Purpose</h2>
+                </div>
+            </div>
+            <div class="mc2r">
+                <div class="mc2r_1">
+                    <h2>Our Goal.</h2>
+                    <h3>Client satisfaction is our primary aim in <br> every project, which is why we have <br> been
+                        recognized as one of the top <br> architects and interior designers in <br> Gujarat.</h3>
+                </div>
+
+                <div class="mc2r_2">
+                    <h2>Our Vision.</h2>
+                    <h3>Our key focus is designing built <br> environments that enhance and <br> improve people’s lives,
+                        providing <br> designs with a lasting trend and <br> modern approach that fits the <br> client’s
+                        budget. Delivering it in the <br> agreed time frame with better <br> management skills.</h3>
+                </div>
+
+                <div class="mc2r_2">
+                    <h2>Dedicated Teamwork of.</h2>
+                    <h3>Shayona Consultant, working on a <br> number of projects simultaneously, has <br> a dedicated
+                        team of over 800 people.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION == 3  -->
+    <div class="mc3_round_1"></div>
+    <section>
+        <div class="mc3">
+            <h1>Meet Our Team</h1>
+        </div>
+
+        <div class="mc3_photos">
+            <div class="mc3_sin_pho">
+                <div class="mc3_sin_pho_pho">
+                    img here
+                </div>
+                <div class="mc3_sin_pho_con">
+                    <h2>Mr. Kirit Chauhan <br> Principal & Founder</h2>
+                </div>
+            </div>
+            <div class="mc3_sin_pho">
+                <div class="mc3_sin_pho_pho">
+                    img here
+                </div>
+                <div class="mc3_sin_pho_con">
+                    <h2>Mr. Dipak Chauhan <br> Principal & Co-Founder</h2>
+                </div>
+            </div>
+            <div class="mc3_sin_pho">
+                <div class="mc3_sin_pho_pho">
+                    img here
+                </div>
+                <div class="mc3_sin_pho_con">
+                    <h2>Mr. Chintu Chauhan <br> Interior Designer</h2>
+                </div>
+            </div>
+            <div class="mc3_sin_pho">
+                <div class="mc3_sin_pho_pho">
+                    img here
+                </div>
+                <div class="mc3_sin_pho_con">
+                    <h2>Mr. Pradip Chauhan <br> Project Manager</h2>
+                </div>
+            </div>
+        </div>
+        <div class="mc3_photos" style="justify-content: start; padding-top: 0vw;">
+            <div class="mc3_sin_pho" style="margin-left: 4.3vw;">
+                <div class="mc3_sin_pho_pho">
+                    img here
+                </div>
+                <div class="mc3_sin_pho_con">
+                    <h2>Mr. Akshay Chauhan <br> Project Manager</h2>
+                </div>
+            </div>
+            <div class="mc3_sin_pho">
+                <div class="mc3_sin_pho_pho">
+                    img here
+                </div>
+                <div class="mc3_sin_pho_con">
+                    <h2>Mr. Dharmesh Chauhan <br> 3D Designer</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="mc3_round_2"></div>
+    </section>
+
+    <footer>
+        <!-- Include footer content here -->
+    </footer>
+
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'images/icons/black-logo.png' %}" type="image/x-icon">
+    <title>Interior</title>
+    <link rel="stylesheet" href="{% static 'css/pro.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main_footer.css' %}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Architects+Daughter&family=Chakra+Petch:wght@300;400&family=Edu+NSW+ACT+Foundation:wght@500&family=Exo+2:wght@300&family=Inconsolata:wght@300&family=Marck+Script&family=Montserrat+Alternates:wght@300&family=Noto+Sans&family=Patrick+Hand&family=Prompt:wght@300&family=Rajdhani:wght@500&family=Raleway:ital@1&family=Shantell+Sans:ital,wght@1,300&family=Signika+Negative:wght@300&family=Sono&family=Titillium+Web&family=Ubuntu:wght@300&family=Work+Sans:wght@200&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- SECTION == 1 -->
+    <section>
+        <div class="main_contant_1">
+            <div class="mc1u">
+                <div class="mc1u1">
+                    <img src="{% static 'images/icons/logo.jpg' %}" alt="">
+                </div>
+                <div class="mc1u2">
+                    <img src="{% static 'images/icons/Twitter.png' %}" alt="">
+                    <img src="{% static 'images/icons/Facebook F.png' %}" alt="">
+                    <img src="{% static 'images/icons/Instagram Circle.png' %}" alt="">
+                    <img src="{% static 'images/icons/YouTube.png' %}" alt="">
+                    <img src="{% static 'images/icons/LinkedIn.png' %}" alt="">
+                </div>
+                <div class="mc1u3" id="mc1u3">
+                    <img src="{% static 'images/icons/Menu_Rounded.png' %}" onclick="home_to_manu()">
+                    <img src="{% static 'images/icons/Search.png' %}" alt="">
+                </div>
+                <div class="mc1u3_click" id="mc1u3_click">
+                    <img onclick="manu_to_home()" src="{% static 'images/icons/Back Arrow.png' %}" alt="">
+                </div>
+            </div>
+            <div class="mc1m">
+                <div class="slider_round_1"></div>
+                <div class="mc1m1"></div>
+                <div class="mc1m2">
+                    <h2>3D DESIGNS</h2>
+                </div>
+                <div class="mc1m3" id="mc1m3"></div>
+                <div class="mc1m3_click" id="mc1m3_click">
+                    <ul>
+                        <li><a href="link1.html" style="color:white; text-decoration:none;">Menu Option 1</a></li>
+                        <li><a href="link2.html" style="color:white; text-decoration:none;">Menu Option 2</a></li>
+                        <li><a href="link3.html" style="color:white; text-decoration:none;">Menu Option 3</a></li>
+                        <li><a href="link4.html" style="color:white; text-decoration:none;">Menu Option 4</a></li>
+                        <li><a href="link5.html" style="color:white; text-decoration:none;">Menu Option 5</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mc1d">
+                <div class="mc1d1"></div>
+                <div class="mc1d2"></div>
+                <div class="mc1d3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION == 2 -->
+    <section>
+        <div class="pro_main">
+            <div class="pro_main_1">
+
+                <!-- Example project items, replace with real data -->
+                <div class="pro_main11">
+                    <img src="{% static 'project_photos/example1.jpg' %}" alt="">
+                    <h2>Project Name 1</h2>
+                    <form action="pro_de.php" method="post">
+                        <input type="hidden" name="pro_id" value="1">
+                        <input style="background:#00000000; border:none; font-size: 1.5vw; margin-top:1vw;"
+                            type="submit" value="View Project">
+                    </form>
+                </div>
+
+                <div class="pro_main11">
+                    <img src="{% static 'project_photos/example2.jpg' %}" alt="">
+                    <h2>Project Name 2</h2>
+                    <form action="pro_de.php" method="post">
+                        <input type="hidden" name="pro_id" value="2">
+                        <input style="background:#00000000; border:none; font-size: 1.5vw; margin-top:1vw;"
+                            type="submit" value="View Project">
+                    </form>
+                </div>
+
+                <div class="pro_main11">
+                    <img src="{% static 'project_photos/example3.jpg' %}" alt="">
+                    <h2>Project Name 3</h2>
+                    <form action="pro_de.php" method="post">
+                        <input type="hidden" name="pro_id" value="3">
+                        <input style="background:#00000000; border:none; font-size: 1.5vw; margin-top:1vw;"
+                            type="submit" value="View Project">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section style="margin-top: 15vw">
+        <footer>
+            <!-- Footer content here -->
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>
